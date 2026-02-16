@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_SIGNATURE</OBJ_NAME_M>
+     <HASH_ID>74150FFB4AFEC6ABD88DA3DFAFCDB75DF0D5FCE4</HASH_ID>
+     <ID>&lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpSignature</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpSignature</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; date &lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>date</IFR_NAME>
+     <IFR_TEXT>Дата подписания ЭЦП</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DATE</R3_NAME>
+     <R3_TEXT>Дата подписания ЭЦП</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FULL_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FULL_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; fullName &lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>fullName</IFR_NAME>
+     <IFR_TEXT>Ф.И.О. лица, выписывающее АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FULL_NAME</R3_NAME>
+     <R3_TEXT>Ф.И.О. лица, выписывающее АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PARTICIPANT_INFO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PARTICIPANT_INFO</OBJ_NAME2>
+     <ID>&lt;element&gt; participantInfo &lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>participantInfo</IFR_NAME>
+     <IFR_TEXT>ИИН/БИН заказчика (получателя)/Наименование НП</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PARTICIPANT_INFO</R3_NAME>
+     <R3_TEXT>ИИН/БИН заказчика (получателя)/Наименование НП</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE</OBJ_NAME2>
+     <ID>&lt;element&gt; signature &lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signature</IFR_NAME>
+     <IFR_TEXT>Подпись участника</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE</R3_NAME>
+     <R3_TEXT>Подпись участника</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TYPE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_SIGNATURE_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; type &lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>type</IFR_NAME>
+     <IFR_TEXT>Тип подписи</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TYPE</R3_NAME>
+     <R3_TEXT>Тип подписи</R3_TEXT>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SIGNATURE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_SIGNATURE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_SIGNATURE</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpSignature awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpSignature</IFR_NAME>
+     <IFR_TEXT>Сведения по ЭЦП</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_SIGNATURE</R3_NAME>
+     <R3_TEXT>Сведения по ЭЦП</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

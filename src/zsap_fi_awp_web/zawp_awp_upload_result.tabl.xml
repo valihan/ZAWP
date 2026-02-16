@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAWP_AWP_UPLOAD_RESULT</TABNAME>
+    <DDLANGUAGE>R</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Результат регистрации Акта выполненных работ в Системе</DDTEXT>
+    <MASTERLANG>R</MASTERLANG>
+    <PROXYTYPE>X</PROXYTYPE>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONTROLLER</FIELDNAME>
+     <ROLLNAME>PRXCTRLTAB</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>TTYP</DATATYPE>
+     <MASK>  TTYPL</MASK>
+     <COMPTYPE>L</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ERROR_LIST</FIELDNAME>
+     <ROLLNAME>ZAWP_AWP_UPLOAD_RESULT_ERROR_L</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <DATATYPE>STRU</DATATYPE>
+     <MASK>  STRUS</MASK>
+     <COMPTYPE>S</COMPTYPE>
+     <PROXYTYPE>X</PROXYTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>AWP_ID</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>8</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>INT8</DATATYPE>
+     <LENG>000019</LENG>
+     <MASK>  INT8</MASK>
+     <DDTEXT>Идентификатор Акта выполненных работ в Системе</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>NUMBER</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Номер Акта выполненных работ в системе Отправителя</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>DATE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>g</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>STRG</DATATYPE>
+     <MASK>  STRG</MASK>
+     <DDTEXT>Дата выписки</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

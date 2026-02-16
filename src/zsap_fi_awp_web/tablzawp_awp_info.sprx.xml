@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_INFO</OBJ_NAME_M>
+     <HASH_ID>17525300F98572A49785FF31CF97AA93137ED4F3</HASH_ID>
+     <ID>&lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpInfo</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpInfo</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_BODY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_BODY</OBJ_NAME2>
+     <ID>&lt;element&gt; awpBody &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpBody</IFR_NAME>
+     <IFR_TEXT>АВР (XML)</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_BODY</R3_NAME>
+     <R3_TEXT>АВР (XML)</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; awpId &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpId</IFR_NAME>
+     <IFR_TEXT>Идентификатор АВР в системе</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_ID</R3_NAME>
+     <R3_TEXT>Идентификатор АВР в системе</R3_TEXT>
+     <R3_DATATYP>INT8</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CERTIFICATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CERTIFICATE</OBJ_NAME2>
+     <ID>&lt;element&gt; certificate &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>certificate</IFR_NAME>
+     <IFR_TEXT>Сертификат для проверки подписи, который содержит также информацию о пользователе — владельце сертиф</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CERTIFICATE</R3_NAME>
+     <R3_TEXT>Сертификат для проверки подписи, который содержит также инфо</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000010</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CREATOR_LOGIN</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CREATOR_LOGIN</OBJ_NAME2>
+     <ID>&lt;element&gt; creatorLogin &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>creatorLogin</IFR_NAME>
+     <IFR_TEXT>Логин пользователя, создавшего документ</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CREATOR_LOGIN</R3_NAME>
+     <R3_TEXT>Логин пользователя, создавшего документ</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000015</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DISSOLUTION_REASON</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DISSOLUTION_REASON</OBJ_NAME2>
+     <ID>&lt;element&gt; dissolutionReason &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>dissolutionReason</IFR_NAME>
+     <IFR_TEXT>Причина расторжения</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DISSOLUTION_REASON</R3_NAME>
+     <R3_TEXT>Причина расторжения</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000018</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>INPUT_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>INPUT_DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; inputDate &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>inputDate</IFR_NAME>
+     <IFR_TEXT>Дата поступления АВР в систему</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>INPUT_DATE</R3_NAME>
+     <R3_TEXT>Дата поступления АВР в систему</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LAST_UPDATE_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LAST_UPDATE_DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; lastUpdateDate &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>lastUpdateDate</IFR_NAME>
+     <IFR_TEXT>Дата обновления АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LAST_UPDATE_DATE</R3_NAME>
+     <R3_TEXT>Дата обновления АВР</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000007</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>OPERATOR_FULL_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>OPERATOR_FULL_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; operatorFullName &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>operatorFullName</IFR_NAME>
+     <IFR_TEXT>ФИО оператора отправившего АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>OPERATOR_FULL_NAME</R3_NAME>
+     <R3_TEXT>ФИО оператора отправившего АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000012</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RECIPIENT_SIGNATURES</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RECIPIENT_SIGNATURES</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_INFO_RECIPIENT_SIGNAT</OBJ_NAME_R>
+     <ID>&lt;element&gt; recipientSignatures &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>recipientSignatures</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RECIPIENT_SIGNATURES</R3_NAME>
+     <R3_SEQNUM>000021</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RECIPIENT_SIGNER_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RECIPIENT_SIGNER_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; recipientSignerName &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>recipientSignerName</IFR_NAME>
+     <IFR_TEXT>Должность принимающего (подписывающего) АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RECIPIENT_SIGNER_NAME</R3_NAME>
+     <R3_TEXT>Должность принимающего (подписывающего) АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000014</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REGISTRATION_NUMBER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REGISTRATION_NUMBER</OBJ_NAME2>
+     <ID>&lt;element&gt; registrationNumber &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>registrationNumber</IFR_NAME>
+     <IFR_TEXT>Регистрационный номер АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REGISTRATION_NUMBER</R3_NAME>
+     <R3_TEXT>Регистрационный номер АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REJECTION_OF_DISSOLUTION_REASO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REJECTION_OF_DISSOLUTION_REASO</OBJ_NAME2>
+     <ID>&lt;element&gt; rejectionOfDissolutionReason &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>rejectionOfDissolutionReason</IFR_NAME>
+     <IFR_TEXT>Причина отклонения расторжения</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REJECTION_OF_DISSOLUTION_REASO</R3_NAME>
+     <R3_TEXT>Причина отклонения расторжения</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000019</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REJECTION_REASON</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REJECTION_REASON</OBJ_NAME2>
+     <ID>&lt;element&gt; rejectionReason &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>rejectionReason</IFR_NAME>
+     <IFR_TEXT>Причина отклонения</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REJECTION_REASON</R3_NAME>
+     <R3_TEXT>Причина отклонения</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000016</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REVOKE_REASON</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REVOKE_REASON</OBJ_NAME2>
+     <ID>&lt;element&gt; revokeReason &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>revokeReason</IFR_NAME>
+     <IFR_TEXT>Причина отзыва</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REVOKE_REASON</R3_NAME>
+     <R3_TEXT>Причина отзыва</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000017</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SENDER_SIGNATURES</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SENDER_SIGNATURES</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_INFO_SENDER_SIGNATURE</OBJ_NAME_R>
+     <ID>&lt;element&gt; senderSignatures &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>senderSignatures</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SENDER_SIGNATURES</R3_NAME>
+     <R3_SEQNUM>000020</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SENDER_SIGNER_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SENDER_SIGNER_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; senderSignerName &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>senderSignerName</IFR_NAME>
+     <IFR_TEXT>Должность сдавшего (выписывающего) АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SENDER_SIGNER_NAME</R3_NAME>
+     <R3_TEXT>Должность сдавшего (выписывающего) АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000013</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE</OBJ_NAME2>
+     <ID>&lt;element&gt; signature &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signature</IFR_NAME>
+     <IFR_TEXT>ЭЦП XML-представления АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_MAXLEN>400</IFR_MAXLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE</R3_NAME>
+     <R3_TEXT>ЭЦП XML-представления АВР</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000400</R3_LENGTH>
+     <R3_SEQNUM>000008</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE_TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE_TYPE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_SIGNATURE_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; signatureType &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signatureType</IFR_NAME>
+     <IFR_TEXT>Тип ЭЦП, которым подписан АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE_TYPE</R3_NAME>
+     <R3_TEXT>Тип ЭЦП, которым подписан АВР</R3_TEXT>
+     <R3_SEQNUM>000009</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE_VALID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE_VALID</OBJ_NAME2>
+     <ID>&lt;element&gt; signatureValid &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signatureValid</IFR_NAME>
+     <IFR_TEXT>Статус ЭЦП</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>boolean</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE_VALID</R3_NAME>
+     <R3_TEXT>Статус ЭЦП</R3_TEXT>
+     <R3_DTREF>XSDBOOLEAN</R3_DTREF>
+     <R3_SEQNUM>000011</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>STATUS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>STATUS</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_STATUS</OBJ_NAME_R>
+     <ID>&lt;element&gt; status &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>status</IFR_NAME>
+     <IFR_TEXT>Статус АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>STATUS</R3_NAME>
+     <R3_TEXT>Статус АВР</R3_TEXT>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>VERSION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>VERSION</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_VERSION</OBJ_NAME_R>
+     <ID>&lt;element&gt; version &lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>version</IFR_NAME>
+     <IFR_TEXT>Версия АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>VERSION</R3_NAME>
+     <R3_TEXT>Версия АВР</R3_TEXT>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_INFO</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_INFO</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_INFO</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpInfo awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpInfo</IFR_NAME>
+     <IFR_TEXT>Информация о АВР</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_INFO</R3_NAME>
+     <R3_TEXT>Информация о АВР</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

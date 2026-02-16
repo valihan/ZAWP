@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_HISTORY_INFO</OBJ_NAME_M>
+     <HASH_ID>B855D15A8C87AD7BFF79F0A4F5E096E0392BE850</HASH_ID>
+     <ID>&lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpHistoryInfo</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpHistoryInfo</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ACTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ACTION</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_ACTION_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; action &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>action</IFR_NAME>
+     <IFR_TEXT>Тип действия</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ACTION</R3_NAME>
+     <R3_TEXT>Тип действия</R3_TEXT>
+     <R3_SEQNUM>000008</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; awpId &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpId</IFR_NAME>
+     <IFR_TEXT>Идентификатор АВР в системе</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_ID</R3_NAME>
+     <R3_TEXT>Идентификатор АВР в системе</R3_TEXT>
+     <R3_DATATYP>INT8</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CLIENT_TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CLIENT_TYPE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_CLIENT_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; clientType &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>clientType</IFR_NAME>
+     <IFR_TEXT>Тип клиента</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CLIENT_TYPE</R3_NAME>
+     <R3_TEXT>Тип клиента</R3_TEXT>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; date &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>date</IFR_NAME>
+     <IFR_TEXT>Дата и время изменения</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DATE</R3_NAME>
+     <R3_TEXT>Дата и время изменения</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>STATUS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>STATUS</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_STATUS</OBJ_NAME_R>
+     <ID>&lt;element&gt; status &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>status</IFR_NAME>
+     <IFR_TEXT>Статус АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>STATUS</R3_NAME>
+     <R3_TEXT>Статус АВР</R3_TEXT>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>STATUS_DESCRIPTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>STATUS_DESCRIPTION</OBJ_NAME2>
+     <ID>&lt;element&gt; statusDescription &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>statusDescription</IFR_NAME>
+     <IFR_TEXT>Описание статуса</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>STATUS_DESCRIPTION</R3_NAME>
+     <R3_TEXT>Описание статуса</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000007</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TIN</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TIN</OBJ_NAME2>
+     <ID>&lt;element&gt; tin &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>tin</IFR_NAME>
+     <IFR_TEXT>ИИН/БИН участника иницировавшего изменение</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TIN</R3_NAME>
+     <R3_TEXT>ИИН/БИН участника иницировавшего изменение</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>USER_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>USER_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; userId &lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>userId</IFR_NAME>
+     <IFR_TEXT>Логин пользователя, инициировавшего смену статуса</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>USER_ID</R3_NAME>
+     <R3_TEXT>Логин пользователя, инициировавшего смену статуса</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_HISTORY_INFO</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_HISTORY_INFO</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_HISTORY_INFO</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpHistoryInfo awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpHistoryInfo</IFR_NAME>
+     <IFR_TEXT>Информация об истории АВР</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_HISTORY_INFO</R3_NAME>
+     <R3_TEXT>Информация об истории АВР</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

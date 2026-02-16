@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME_M>
+     <HASH_ID>9C49877DB4A30562B944521655EFC671AC3D39C2</HASH_ID>
+     <ID>&lt;type&gt; AwpQueryUpdatesResponse v1.awp v1.awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpQueryUpdatesResponse</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpQueryUpdatesResponse</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_INFO_LIST</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_INFO_LIST</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_QUERY_UPDATES_RESPONS</OBJ_NAME_R>
+     <ID>&lt;element&gt; awpInfoList &lt;type&gt; AwpQueryUpdatesResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpInfoList</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_INFO_LIST</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LAST_AWP_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LAST_AWP_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; lastAwpId &lt;type&gt; AwpQueryUpdatesResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>lastAwpId</IFR_NAME>
+     <IFR_TEXT>Идентификатор последнего Акта выполненных работ в этом блоке</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LAST_AWP_ID</R3_NAME>
+     <R3_TEXT>Идентификатор последнего Акта выполненных работ в этом блоке</R3_TEXT>
+     <R3_DATATYP>INT8</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LAST_EVENT_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LAST_EVENT_DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; lastEventDate &lt;type&gt; AwpQueryUpdatesResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>lastEventDate</IFR_NAME>
+     <IFR_TEXT>Дата последней записи в этом блоке (в формате времени с временной зоной)</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LAST_EVENT_DATE</R3_NAME>
+     <R3_TEXT>Дата последней записи в этом блоке (в формате времени с врем</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_QUERY_UPDATES_RESPON1</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpQueryUpdatesResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpQueryUpdatesResponse</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_QUERY_UPDATES_RESPON1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

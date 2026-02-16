@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_ERROR</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_ERROR</OBJ_NAME_M>
+     <HASH_ID>50285810150F01F8C0081BDE79B6EE0797117C16</HASH_ID>
+     <ID>&lt;type&gt; Error v1.awp v1.awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>Error</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>Error</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_ERROR</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ERROR_CODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ERROR_CODE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_ERROR_CODE</OBJ_NAME_R>
+     <ID>&lt;element&gt; errorCode &lt;type&gt; Error v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>errorCode</IFR_NAME>
+     <IFR_TEXT>Код ошибки</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ERROR_CODE</R3_NAME>
+     <R3_TEXT>Код ошибки</R3_TEXT>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_ERROR</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>PROPERTY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>PROPERTY</OBJ_NAME2>
+     <ID>&lt;element&gt; property &lt;type&gt; Error v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>property</IFR_NAME>
+     <IFR_TEXT>Поле документа, в котором обнаружена ошибка</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>PROPERTY</R3_NAME>
+     <R3_TEXT>Поле документа, в котором обнаружена ошибка</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_ERROR</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TEXT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TEXT</OBJ_NAME2>
+     <ID>&lt;element&gt; text &lt;type&gt; Error v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>text</IFR_NAME>
+     <IFR_TEXT>Текст ошибки</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TEXT</R3_NAME>
+     <R3_TEXT>Текст ошибки</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_ERROR</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_ERROR</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_ERROR</OBJ_NAME2>
+     <ID>&lt;type&gt; Error v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>Error</IFR_NAME>
+     <IFR_TEXT>Объект содержащий ошибки валидации документа</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_ERROR</R3_NAME>
+     <R3_TEXT>Объект содержащий ошибки валидации документа</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

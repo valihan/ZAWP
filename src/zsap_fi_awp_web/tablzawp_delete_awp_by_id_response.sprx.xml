@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_DELETE_AWP_BY_ID_RESPONSE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_DELETE_AWP_BY_ID_RESPONS1</OBJ_NAME_M>
+     <HASH_ID>1BA005E6279465D85066858F098FA9955E885017</HASH_ID>
+     <ID>&lt;type&gt; resultList &lt;element&gt; resultList &lt;type&gt; DeleteAwpByIdResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>resultList</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>resultList</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_DELETE_AWP_BY_ID_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CHANGE_STATUS_RESULT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CHANGE_STATUS_RESULT</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_DELETE_AWP_RESULT_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; changeStatusResult &lt;type&gt; resultList &lt;element&gt; resultList &lt;type&gt; DeleteAwpByIdResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>changeStatusResult</IFR_NAME>
+     <IFR_TEXT>Результат выполнения операции по удалению ошибочных ЭСФ</IFR_TEXT>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CHANGE_STATUS_RESULT</R3_NAME>
+     <R3_TEXT>Результат выполнения операции по удалению ошибочных ЭСФ</R3_TEXT>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_DELETE_AWP_BY_ID_RESPONSE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_DELETE_AWP_BY_ID_RESPONSE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_DELETE_AWP_BY_ID_RESPONSE</OBJ_NAME2>
+     <ID>&lt;type&gt; resultList &lt;element&gt; resultList &lt;type&gt; DeleteAwpByIdResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>resultList</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_DELETE_AWP_BY_ID_RESPONSE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZAWP_LONG_TAB1</OBJ_NAME>
+     <OBJECT_M>TTYP</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_LONG_TAB1</OBJ_NAME_M>
+     <HASH_ID>36EB1D40773294B7E85804F2E7B8F667D93EBB57</HASH_ID>
+     <ID>TableOf&lt;type&gt; long http://www.w3.org/2001/XMLSchema esf</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>long</IFR_NAME>
+     <IFR_NSPCE>http://www.w3.org/2001/XMLSchema</IFR_NSPCE>
+     <IFR_GNSPCE>esf</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZAWP_LONG_TAB1</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZAWP_LONG_TAB1</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZAWP_LONG_TAB1</OBJ_NAME2>
+     <ID>TableOf&lt;type&gt; long http://www.w3.org/2001/XMLSchema esf</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>long</IFR_NAME>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZAWP_LONG_TAB1</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <R3_DATATYP>INT8</R3_DATATYP>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

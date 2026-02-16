@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAWP_CO_LOCAL_SERVICE</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Локальный сервис для работы с ИС ЭСФ</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <CLSPROXY>X</CLSPROXY>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERATE_DOCUMENT_SIGNATURE</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERATE_DOCUMENT_XML_SIGNATUR</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GENERATE_SIGNATURE</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIGN_ID_LIST</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIGN_ID_WITH_REASON_LIST</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

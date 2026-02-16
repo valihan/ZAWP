@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_SUMMARY</OBJ_NAME_M>
+     <HASH_ID>C3CC46F3B330F3A627B4697799275E21AD73470C</HASH_ID>
+     <ID>&lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpSummary</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpSummary</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_ID</OBJ_NAME2>
+     <ID>&lt;element&gt; awpId &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpId</IFR_NAME>
+     <IFR_TEXT>Идентификатор Акта выполненных работ</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_ID</R3_NAME>
+     <R3_TEXT>Идентификатор Акта выполненных работ</R3_TEXT>
+     <R3_DATATYP>INT8</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>INPUT_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>INPUT_DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; inputDate &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>inputDate</IFR_NAME>
+     <IFR_TEXT>Дата поступления АВР в систему</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>INPUT_DATE</R3_NAME>
+     <R3_TEXT>Дата поступления АВР в систему</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LAST_UPDATE_DATE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LAST_UPDATE_DATE</OBJ_NAME2>
+     <ID>&lt;element&gt; lastUpdateDate &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>lastUpdateDate</IFR_NAME>
+     <IFR_TEXT>Дата обновления АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>dateTime</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LAST_UPDATE_DATE</R3_NAME>
+     <R3_TEXT>Дата обновления АВР</R3_TEXT>
+     <R3_DTREF>XSDDATETIME_Z</R3_DTREF>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RECIPIENT_TIN_LIST</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RECIPIENT_TIN_LIST</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_SUMMARY_RECIPIENT_TIN</OBJ_NAME_R>
+     <ID>&lt;element&gt; recipientTinList &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>recipientTinList</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RECIPIENT_TIN_LIST</R3_NAME>
+     <R3_SEQNUM>000008</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>REGISTRATION_NUMBER</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>REGISTRATION_NUMBER</OBJ_NAME2>
+     <ID>&lt;element&gt; registrationNumber &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>registrationNumber</IFR_NAME>
+     <IFR_TEXT>Регистрационный номер АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>REGISTRATION_NUMBER</R3_NAME>
+     <R3_TEXT>Регистрационный номер АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SENDER_TIN_LIST</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SENDER_TIN_LIST</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_SUMMARY_SENDER_TIN_LI</OBJ_NAME_R>
+     <ID>&lt;element&gt; senderTinList &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>senderTinList</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SENDER_TIN_LIST</R3_NAME>
+     <R3_SEQNUM>000007</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>STATUS</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>STATUS</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_STATUS</OBJ_NAME_R>
+     <ID>&lt;element&gt; status &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>status</IFR_NAME>
+     <IFR_TEXT>Статус АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>STATUS</R3_NAME>
+     <R3_TEXT>Статус АВР</R3_TEXT>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>VERSION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>VERSION</OBJ_NAME2>
+     <ID>&lt;element&gt; version &lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>version</IFR_NAME>
+     <IFR_TEXT>Версия АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>VERSION</R3_NAME>
+     <R3_TEXT>Версия АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_SUMMARY</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_SUMMARY</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_SUMMARY</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpSummary awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpSummary</IFR_NAME>
+     <IFR_TEXT>Краткая информация об Акте выполненных работ</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_SUMMARY</R3_NAME>
+     <R3_TEXT>Краткая информация об Акте выполненных работ</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_STATUS_RESPONSE_AWP_S</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_STATUS_RESPONSE</OBJ_NAME_M>
+     <HASH_ID>4D203314BC9A1ED71840D78D1DF9B5C753417F71</HASH_ID>
+     <ID>&lt;type&gt; awpSummaryList &lt;element&gt; awpSummaryList &lt;type&gt; AwpStatusResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>awpSummaryList</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>awpSummaryList</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_STATUS_RESPONSE_AWP_S</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_SUMMARY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_SUMMARY</OBJ_NAME2>
+     <OBJECT_R>TTYP</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_SUMMARY_TAB</OBJ_NAME_R>
+     <ID>&lt;element&gt; awpSummary &lt;type&gt; awpSummaryList &lt;element&gt; awpSummaryList &lt;type&gt; AwpStatusResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpSummary</IFR_NAME>
+     <IFR_TEXT>Краткая информация о АВР</IFR_TEXT>
+     <IFR_TAGTYP>L</IFR_TAGTYP>
+     <IFR_MAXOCC>65535</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_SUMMARY</R3_NAME>
+     <R3_TEXT>Краткая информация о АВР</R3_TEXT>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_STATUS_RESPONSE_AWP_S</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_STATUS_RESPONSE_AWP_S</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_STATUS_RESPONSE_AWP_S</OBJ_NAME2>
+     <ID>&lt;type&gt; awpSummaryList &lt;element&gt; awpSummaryList &lt;type&gt; AwpStatusResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>awpSummaryList</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_STATUS_RESPONSE_AWP_S</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

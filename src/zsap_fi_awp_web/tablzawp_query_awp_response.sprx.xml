@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME_M>
+     <HASH_ID>5FF030D31F3BF82129D466E586EC12C3651EB1B0</HASH_ID>
+     <ID>&lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>QueryAwpResponse</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>QueryAwpResponse</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_INFO_LIST</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_INFO_LIST</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_QUERY_AWP_RESPONSE_AWP_IN</OBJ_NAME_R>
+     <ID>&lt;element&gt; awpInfoList &lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpInfoList</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_INFO_LIST</R3_NAME>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CURR_PAGE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CURR_PAGE</OBJ_NAME2>
+     <ID>&lt;element&gt; currPage &lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>currPage</IFR_NAME>
+     <IFR_TEXT>Номер текущего блока результата</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>int</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CURR_PAGE</R3_NAME>
+     <R3_TEXT>Номер текущего блока результата</R3_TEXT>
+     <R3_DATATYP>INT4</R3_DATATYP>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>LAST_BLOCK</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>LAST_BLOCK</OBJ_NAME2>
+     <ID>&lt;element&gt; lastBlock &lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>lastBlock</IFR_NAME>
+     <IFR_TEXT>Текущий блок является последним</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>boolean</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>LAST_BLOCK</R3_NAME>
+     <R3_TEXT>Текущий блок является последним</R3_TEXT>
+     <R3_DTREF>XSDBOOLEAN</R3_DTREF>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>RS_COUNT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>RS_COUNT</OBJ_NAME2>
+     <ID>&lt;element&gt; rsCount &lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>rsCount</IFR_NAME>
+     <IFR_TEXT>Количество возвращаемых записей</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>int</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>RS_COUNT</R3_NAME>
+     <R3_TEXT>Количество возвращаемых записей</R3_TEXT>
+     <R3_DATATYP>INT4</R3_DATATYP>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_QUERY_AWP_RESPONSE</OBJ_NAME2>
+     <ID>&lt;type&gt; QueryAwpResponse v1.awp v1.awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>QueryAwpResponse</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_QUERY_AWP_RESPONSE</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

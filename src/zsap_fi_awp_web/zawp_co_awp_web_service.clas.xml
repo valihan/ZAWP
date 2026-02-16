@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAWP_CO_AWP_WEB_SERVICE</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Сервис работы с АВР</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>P</RSTAT>
+    <CLSPROXY>X</CLSPROXY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_STATUS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Изменить статус АВР</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_AWP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить список Актов выполненных работ по критерии</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_AWP_BY_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить список Актов выполненных работ по идентификаторам</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_AWP_ERROR_BY_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить список ошибок Актов выполненных работ по их идентиф</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_AWP_HISTORY_BY_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить записи об истории Актов выполненных работ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_AWP_STATUS_BY_ID</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить статусы Актов выполненных работ по их идентификатор</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_DELETE_AWP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Удаление ошибочных Актов выполненных работ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_UPDATE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Получить список новых зарегистрированных или измененных в си</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>QUERY_VIEW_AWP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Подтвердить доставку Актов выполненных работ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPLOAD_AWP</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Загрузить Акт выполненных работ</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_STATUS</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_AWP</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_AWP_BY_ID</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_AWP_ERROR_BY_ID</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_AWP_HISTORY_BY_ID</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_AWP_STATUS_BY_ID</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_DELETE_AWP</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_UPDATE</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUERY_VIEW_AWP</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPLOAD_AWP</CMPNAME>
+     <SCONAME>CX_AI_SYSTEM_FAULT</SCONAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Ошибка связи</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

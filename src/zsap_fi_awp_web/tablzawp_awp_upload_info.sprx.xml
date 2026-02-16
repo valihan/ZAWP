@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME_M>
+     <HASH_ID>29A000B18FDC620425B1C571EF538B2788F74861</HASH_ID>
+     <ID>&lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpUploadInfo</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpUploadInfo</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AUTO_CALCULATING</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AUTO_CALCULATING</OBJ_NAME2>
+     <ID>&lt;element&gt; autoCalculating &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>autoCalculating</IFR_NAME>
+     <IFR_TEXT>Флаг автоматического расчета сумм в услугах</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>boolean</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AUTO_CALCULATING</R3_NAME>
+     <R3_TEXT>Флаг автоматического расчета сумм в услугах</R3_TEXT>
+     <R3_DTREF>XSDBOOLEAN</R3_DTREF>
+     <R3_SEQNUM>000006</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>AWP_BODY</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>AWP_BODY</OBJ_NAME2>
+     <ID>&lt;element&gt; awpBody &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>awpBody</IFR_NAME>
+     <IFR_TEXT>АВР (XML)</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>AWP_BODY</R3_NAME>
+     <R3_TEXT>АВР (XML)</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SENDER_SIGNER_NAME</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SENDER_SIGNER_NAME</OBJ_NAME2>
+     <ID>&lt;element&gt; senderSignerName &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>senderSignerName</IFR_NAME>
+     <IFR_TEXT>Должность сдавшего (выписывающего) АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SENDER_SIGNER_NAME</R3_NAME>
+     <R3_TEXT>Должность сдавшего (выписывающего) АВР</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <R3_SEQNUM>000005</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE</OBJ_NAME2>
+     <ID>&lt;element&gt; signature &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signature</IFR_NAME>
+     <IFR_TEXT>ЭЦП XML-представления АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_MAXLEN>400</IFR_MAXLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE</R3_NAME>
+     <R3_TEXT>ЭЦП XML-представления АВР</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000400</R3_LENGTH>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SIGNATURE_TYPE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SIGNATURE_TYPE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_SIGNATURE_TYPE</OBJ_NAME_R>
+     <ID>&lt;element&gt; signatureType &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>signatureType</IFR_NAME>
+     <IFR_TEXT>Тип ЭЦП, которым подписан АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SIGNATURE_TYPE</R3_NAME>
+     <R3_TEXT>Тип ЭЦП, которым подписан АВР</R3_TEXT>
+     <R3_SEQNUM>000004</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>VERSION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>VERSION</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_AWP_VERSION</OBJ_NAME_R>
+     <ID>&lt;element&gt; version &lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>version</IFR_NAME>
+     <IFR_TEXT>Версия АВР</IFR_TEXT>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>VERSION</R3_NAME>
+     <R3_TEXT>Версия АВР</R3_TEXT>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_UPLOAD_INFO</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpUploadInfo awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpUploadInfo</IFR_NAME>
+     <IFR_TEXT>Информация о загружаемом АВР</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_UPLOAD_INFO</R3_NAME>
+     <R3_TEXT>Информация о загружаемом АВР</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

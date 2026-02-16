@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME>
+     <OBJECT_M>CLAS</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME_M>
+     <HASH_ID>3700946D0587E2ED0ABBABBADC1E5A31896B9BD9</HASH_ID>
+     <ID>&lt;message&gt; TrustyOCSPNotAvailableException v1.awp v1.awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>TrustyOCSPNotAvailableException</IFR_NAME>
+     <IFR_NSPCE>v1.awp</IFR_NSPCE>
+     <IFR_GNSPCE>v1.awp</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmfaultm</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>v1.awp</X-ML_NSPCE>
+     <X-ML_NAME>TrustyOCSPNotAvailableException</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME>
+     <OBJECT1>ATTR</OBJECT1>
+     <OBJ_NAME1>TRUSTY_OCSPNOT_AVAILABLE_EXCEP</OBJ_NAME1>
+     <OBJECT2>ATTR</OBJECT2>
+     <OBJ_NAME2>TRUSTY_OCSPNOT_AVAILABLE_EXCEP</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZAWP_TRUSTY_OCSPNOT_AVAILABLE</OBJ_NAME_R>
+     <ID>&lt;part&gt; TrustyOCSPNotAvailableException &lt;message&gt; TrustyOCSPNotAvailableException v1.awp v1.awp</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>TrustyOCSPNotAvailableException</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>ATTR</R3_TYPE>
+     <R3_NAME>TRUSTY_OCSPNOT_AVAILABLE_EXCEP</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</OBJ_NAME2>
+     <ID>&lt;message&gt; TrustyOCSPNotAvailableException v1.awp v1.awp</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>TrustyOCSPNotAvailableException</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <IFR_FAULT>X</IFR_FAULT>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZAWP_CX_TRUSTY_OCSPNOT_AVAILAB</R3_NAME>
+     <R3_TEXT>Proxy Class (generated)</R3_TEXT>
+     <CATEGORY>ifmfaultm</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

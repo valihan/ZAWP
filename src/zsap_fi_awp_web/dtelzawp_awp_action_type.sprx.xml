@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_ACTION_TYPE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZAWP_AWP_ACTION_TYPE</OBJ_NAME_M>
+     <HASH_ID>B2531E5E213105DC1A4EB6ACC40B45324D062BBF</HASH_ID>
+     <ID>&lt;type&gt; AwpActionType awp awp</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpActionType</IFR_NAME>
+     <IFR_NSPCE>awp</IFR_NSPCE>
+     <IFR_GNSPCE>awp</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZAWP_</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>awp</X-ML_NSPCE>
+     <X-ML_NAME>AwpActionType</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZAWP_AWP_ACTION_TYPE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZAWP_AWP_ACTION_TYPE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZAWP_AWP_ACTION_TYPE</OBJ_NAME2>
+     <ID>&lt;type&gt; AwpActionType awp awp</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>AwpActionType</IFR_NAME>
+     <IFR_TEXT>Тип действия</IFR_TEXT>
+     <IFR_XSDTYP>string</IFR_XSDTYP>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZAWP_AWP_ACTION_TYPE</R3_NAME>
+     <R3_TEXT>Тип действия</R3_TEXT>
+     <R3_DATATYP>STRG</R3_DATATYP>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_T_ENUM&gt;&lt;item&gt;CREATE&lt;/item&gt;&lt;item&gt;VIEW&lt;/item&gt;&lt;item&gt;DELETE&lt;/item&gt;&lt;item&gt;CANCEL&lt;/item&gt;&lt;item&gt;CONFIRM&lt;/item&gt;&lt;item&gt;DECLINE&lt;/item&gt;&lt;item&gt;REVOKE&lt;/item&gt;&lt;item&gt;TERMINATE&lt;/item&gt;&lt;item&gt;CONFIRM_TERMINATION&lt;/item&gt;&lt;item&gt;DECLINE_TERMINATION&lt;/item&gt;&lt;/IFR_T_ENUM&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
